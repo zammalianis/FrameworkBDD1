@@ -47,6 +47,7 @@ login.Lbl_Login_isDisplay();
 
 @And("close the browser")
 public void close_the_browser() {
+	System.out.println("I am changed PageFactory");
  driver.quit();
 }
 }
